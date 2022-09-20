@@ -33,14 +33,8 @@ String noun3 = scanner.nextLine();
 
 
         //Uppercase the first letter of beginning middle and end
-        char firstLetter = beginning.charAt(0);
-        if (firstLetter >= 'a' && firstLetter <= 'z') {
 
-
-            firstLetter -= ('a' - 'A');
-        }
-        beginning = Character.toUpperCase(beginning.charAt(0))+ beginning.substring(1);
-
+        beginning = Character.toUpperCase(beginning.charAt(0)) + beginning.substring(1);
         middle = Character.toUpperCase(middle.charAt(0)) + middle.substring(1);
         end = end.substring(0, 1).toUpperCase() + end.substring(1);
 
